@@ -1,0 +1,180 @@
+.page1{
+    height: 100vh;
+    background-color: rgb(184, 138, 11);
+
+}
+
+.page1 .title{
+
+ font-size:70px;
+color:black;
+
+font-family: Avenir, Helvetica, Arial, sans-serif;
+text-align: center; 
+position:absolute; 
+top:45%;
+left:45%;
+transform:translateX(-50%) translateY(-50%)
+
+}
+
+.page1 .title2{
+font-size:25px;
+color:black;
+ font-family:'Times New Roman', Times, serif;
+
+ text-align: center;
+padding: 5;
+margin: 5;
+position:absolute; 
+top:60%;
+left:60%;
+transform:translateX(-90%) translateY(-80%)
+}
+
+
+ .page1 .more{
+    color:white;
+    font-size: medium;
+
+    border: none;
+    background-color:rgba(0, 89, 255, 0.616) ;
+    display: inline;
+    margin: 2px 15px;
+    padding: 20px 32px;
+position:absolute;
+top: 70%;
+left:70%;
+cursor: pointer;
+transform:translateX(-400px) translateY(-50%)
+}
+
+ .page1 .more:hover {
+    background-color: rgb(0, 47, 255);
+}
+
+.page1 .dropdown{
+    display: inline-block;
+    
+}
+
+ .page1 .dropdown button  {
+ background-color: darkgrey;
+ position: absolute;
+ right: 3%;
+ top:3%;
+ margin:0;
+color: #fff;
+padding: 0;
+border: none;
+
+transform:translateX(90px) translateY(0px)
+  } 
+
+
+ .page1 .dropdown a{
+display: block;
+color:black;
+padding: 10px 15px;
+text-decoration: none; 
+
+
+
+ } 
+
+ .page1 .dropdown .content{
+ position: absolute;
+ background-color: #fff;
+min-width: 200px;
+margin: 25px;
+box-shadow: 2px 2px 2px 2px 2px black;
+display: none;
+
+
+}
+
+.page1 .dropdown:hover .content{
+    display: block;
+}
+
+.page1 .dropdown:hover button {
+    background-color: rgb(6, 19, 134);
+}
+
+.page1 .dropdown a:hover {
+    background-color:rgb(6, 113, 175) ;
+    
+}
+
+
+.section-header{
+    text-align: center;
+
+}
+.section-header .title3{
+        font-size:25px;
+       color:black;
+       font-family: Avenir, Helvetica, Arial, sans-serif;
+       text-align: center; 
+       padding:0;
+       margin: 0;
+       position:absolute; 
+       bottom:-20%;
+       left:40%;
+       transform:translateX(-30%) translateY(-60%)
+       }
+    
+    
+   .section-header .title4{
+        font-size:20px;
+        color:rgb(13, 146, 95);
+         font-family:'Times New Roman', Times, serif;
+         text-align: center;
+        padding: 10;
+        margin: 10;
+        position:absolute; 
+        bottom:-30%;
+        left:40%;
+        transform:translateX(-25%) translateY(-20%)
+        }
+    
+    
+    
+    .section-header button {
+            color:white;
+            font-size: medium;
+            border: none;
+            background-color:rgba(0, 89, 255, 0.616) ;
+            display: inline;
+            margin: 2px 5px;
+            padding: 10px 10px;
+        position:absolute;
+        bottom: 0;
+        left:50%;
+        cursor: pointer;
+        transform:translateX(5px) translateY(200px)
+        }
+    
+    
+     .section-header:hover button  {
+            background-color:grey;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
